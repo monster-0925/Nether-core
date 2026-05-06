@@ -117,11 +117,20 @@ Nether aims to explore new blockchain configurations and potential ecosystem mod
 - Token creation mechanisms  
 - DeFi-oriented primitives  
 - Puzzle-based reward systems  
-- A self-sustaining on-chain economy  
+- A self-sustaining on-chain economy
 
-## 📜 License
 
-Nether Core is released under the MIT license. See `COPYING` for more information.
+## 🤝 Contributing
+
+Any developer can contribute to the Nether Core project and be part of the community.
+
+We welcome:
+- Code contributions
+- Bug reports
+- Feature suggestions
+- Documentation improvements
+
+Please open an issue or submit a pull request. Make sure to follow the contribution guidelines.
 
 ## 🙏 Acknowledgements
 
