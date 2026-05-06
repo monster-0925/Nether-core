@@ -77,3 +77,53 @@ Translations are periodically pulled from Transifex and merged into the git repo
 
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
+
+# Nether Core 
+
+Nether Core is a Bitcoin Core-based blockchain project with custom network parameters and experimental features.
+
+##  About Nether Core
+
+Nether Core connects to a peer-to-peer network to download and fully validate blocks and transactions, similar to Bitcoin Core, while introducing custom modifications and experimental features.
+
+It includes:
+- Full node implementation
+- Custom genesis block and network parameters
+- Experimental wallet support
+
+## Status
+
+This project is under active development and is **not stable**. Do not use real funds.
+
+## 🧱 Features
+
+- Based on Bitcoin Core
+- Modified consensus and network parameters
+- Custom chain configuration
+- Experimental extensions for future ecosystem features
+- Uses current eco-system like Defi,Nfts
+- Allow user to interact and create their own token.
+
+## 🛣 Roadmap
+
+- [ ] Stable testnet launch  
+- [ ] Multi-node synchronization  
+- [ ] Wallet improvements  
+- [ ] Experimental token and ecosystem features  
+
+## 💡 Vision
+
+Nether aims to explore new blockchain configurations and potential ecosystem models, including:
+- Token creation mechanisms  
+- DeFi-oriented primitives  
+- Puzzle-based reward systems  
+- A self-sustaining on-chain economy  
+
+## 📜 License
+
+Nether Core is released under the MIT license. See `COPYING` for more information.
+
+## 🙏 Acknowledgements
+
+This project is based on the work of the :contentReference[oaicite:1]{index=1} and the broader open-source community.
+
