@@ -1,69 +1,34 @@
-# Prerequisites
-*.d
+# =========================
+# Source Code Structure
+# =========================
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Core source code
+src/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Build dependencies system
+depends/
 
-# Linker files
-*.ilk
+# Documentation
+doc/
 
-# Debugger Files
-*.pdb
+# Tests (unit + functional)
+test/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
+# Configs / assets / scripts
+share/
 
+# =========================
+# Project files
+# =========================
 
-# Fortran module files
-*.mod
-*.smod
+README.md
+LICENSE
+.gitignore
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# =========================
+# Build system (Autotools)
+# =========================
 
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
-*.log
-*.bak
-*.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+configure.ac
+Makefile.am
+autogen.sh
