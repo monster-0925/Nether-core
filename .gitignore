@@ -1,34 +1,118 @@
 # =========================
-# Source Code Structure
+# C / C++ build artifacts
 # =========================
 
-# Core source code
-src/
+*.o
+*.obj
+*.lo
+*.slo
 
-# Build dependencies system
-depends/
+# Precompiled headers
+*.gch
+*.pch
 
-# Documentation
-doc/
+# Debug files
+*.pdb
+*.dwo
 
-# Tests (unit + functional)
-test/
-
-# Configs / assets / scripts
-share/
-
-# =========================
-# Project files
-# =========================
-
-README.md
-LICENSE
-.gitignore
+# Linker files
+*.ilk
 
 # =========================
-# Build system (Autotools)
+# Libraries
 # =========================
 
-configure.ac
-Makefile.am
-autogen.sh
+*.a
+*.lib
+*.la
+*.lai
+
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# =========================
+# Executables
+# =========================
+
+*.exe
+*.out
+*.app
+bitcoind
+bitcoin-cli
+bitcoin-qt
+
+# =========================
+# Build directories
+# =========================
+
+build/
+Build/
+build-*/
+depends/built/
+depends/work/
+
+# =========================
+# Autotools
+# =========================
+
+configure
+config.log
+config.status
+libtool
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+
+# =========================
+# CMake
+# =========================
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# =========================
+# Runtime / blockchain data (VERY IMPORTANT)
+# =========================
+
+wallet.dat
+*.dat
+blocks/
+chainstate/
+debug.log
+peers.dat
+
+# =========================
+# Temp / logs
+# =========================
+
+*.log
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# Test / cache
+# =========================
+
+Testing/
+.cache/
+
+# =========================
+# Editor / OS
+# =========================
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Package managers
+# =========================
+
+vcpkg_installed/
